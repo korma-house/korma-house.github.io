@@ -1,6 +1,6 @@
 <head>
 <link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
-<link rel='stylesheet' type='text/css' href='style.css'>
+<link rel='stylesheet' type='text/css' href='style-menu.css'>
 </head>
 
 <body>
@@ -44,5 +44,11 @@
     <p>name of the second dessert <span class="price">£//</span><br />
     <small>discription of the second dessert</small></p>
   </div>
+
+  <script>
+  $("div").on("click", function() {
+    $(this).toggleClass("show-description");
+  });
+  </script>
 
 </body>
