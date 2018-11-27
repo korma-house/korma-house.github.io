@@ -1,53 +1,57 @@
 <head>
-<link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet'>
 <link rel='stylesheet' type='text/css' href='style-menu.css'>
+<script
+  src='https://code.jquery.com/jquery-3.3.1.min.js'
+  integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8='crossorigin='anonymous'></script>
 </head>
 
 <body>
   <h1>Menu</h1>
   <h2>Here you can find the selection of our freshly cooked dishes</h2>
+  <h3>All our delicious dishes are served with steamed rice, salad and aromatic naan</h3>
 
-  <h3>Starters</h2>
-  <div class='starters1'>
-    <p>name of the first starter <span class="price">£//</span><br />
+  <h3 class='meal'>Starters</h3>
+  <div class='starter1'>
+    <p>Cheese Paneer <span class='price'>£//</span><br />
     <small>discription of the first dish</small></p>
   </div>
-  <div class='starters2'>
-    <p>name of the second starter <span class="price">£//</span><br />
+  <div class='starter2'>
+    <p>Aloo Tikki <span class='price'>£//</span><br />
     <small>discription of the first dish</small></p>
   </div>
 
-  <h3>Main dishes</h3>
+  <h3 class='meal'>Main dishes</h3>
   <div class='main1'>
-    <p>name of the first main <span class="price">£//</span><br />
+    <p>Korma <span class='price'>£5.50</span><br />
     <small>discription of the first main</small></p>
   </div>
   <div class='main2'>
-    <p>name of the second main <span class="price">£//</span><br />
+    <p>Tikka Masala <span class='price'>£6</span><br />
     <small>discription of the second main</small></p>
   </div>
   <div class='main3'>
-    <p>name of the third main <span class="price">£//</span><br />
+    <p>Jalfrezi <span class='price'>£6</span><br />
     <small>discription of the third main</small></p>
   </div>
   <div class='main4'>
-    <p>name of the fourth main <span class="price">£//</span><br />
+    <p>Rogan Josh <span class='price'>£6</span><br />
     <small>discription of the fourth main</small></p>
   </div>
 
-  <h3>Desserts</h3>
+  <h3 class='meal'>Desserts</h3>
   <div class='dessert1'>
-    <p>name of the first dessert <span class="price">£//</span><br />
+    <p>Coconut Ladoo <span class='price'>£4</span><br />
     <small>discription of the first dessert</small></p>
   </div>
   <div class='dessert2'>
-    <p>name of the second dessert <span class="price">£//</span><br />
+    <p>Milk Pedha <span class='price'>£4</span><br />
     <small>discription of the second dessert</small></p>
   </div>
 
   <script>
-  $("div").on("click", function() {
-    $(this).toggleClass("show-description");
+  $('div').on('click', function() {
+    $(this).toggleClass('show-description');
   });
   </script>
 
