@@ -2,3 +2,11 @@ ul.nav li{
     display: inline-block;
     padding-right: 10px;
 }
+
+a.navbar-brand {
+  font-size: 28px;
+}
+
+.nav-link {
+  font-size: 20px;
+}

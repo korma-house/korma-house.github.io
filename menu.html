@@ -13,7 +13,7 @@
 <body>
 
   <nav class="navbar navbar-expand navbar-dark bg-dark">
-    <a class="navbar-brand" href="index.html"><span class="carousel-control-prev-icon"></span> Back to home</a>
+    <a class="navbar-brand" id="large-nav-text" href="index.html"><span class="carousel-control-prev-icon"></span> Back to home</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -23,7 +23,6 @@
 
   <h1>Menu</h1>
   <h2>Here you can find the selection of our freshly cooked dishes</h2>
-  <h3>All our delicious dishes are served with steamed rice, salad and aromatic naan</h3>
 
   <div class="accordion" id="accordionExample">
 
@@ -37,14 +36,19 @@
       </div>
       <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
         <div class="card-body">
-          <div class='option starter starter1'>
-            <p>Cheese Paneer <span class='price'>&pound;//</span><br />
-              <small>discription of the first dish</small></p>
+          <div class="row">
+            <div class='col-md-6 option starter starter1'>
+              <img class="img-fluid" src="meal-images/cheese-paneer.jpg">
+              <p>Cheese Paneer <span class='price'>&pound;//</span><br />
+                <small>discription of the first dish</small></p>
+            </div>
+            <div class='col-md-6 option starter starter2'>
+              <img class="img-fluid" src="meal-images/aloo-tikki.jpg">
+              <p>Aloo Tikki <span class='price'>&pound;//</span><br />
+                <small>discription of the second dish</small></p>
+            </div>
           </div>
-          <div class='option starter starter2'>
-            <p>Aloo Tikki <span class='price'>&pound;//</span><br />
-              <small>discription of the second dish</small></p>
-          </div>
+        </div>
       </div>
     </div>
 
@@ -58,21 +62,30 @@
       </div>
       <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
         <div class="card-body">
-          <div class='option main main 1'>
-            <p>Korma <span class='price'>&pound;//</span><br />
-              <small>discription of the first dish</small></p>
-          </div>
-          <div class='option main main2'>
-            <p>Tikka Masala <span class='price'>&pound;//</span><br />
-              <small>discription of the second dish</small></p>
-          </div>
-          <div class='option main main 3'>
+          <div class="row">
+            <div class="col-md-12">
+              <h3>All our delicious dishes are served with steamed rice, salad and aromatic naan</h3>
+            </div>
+            <div class='col-md-6 option main main1'>
+              <img class="img-fluid" src="meal-images/korma.jpeg">
+              <p>Korma <span class='price'>&pound;//</span><br />
+                <small>discription of the first dish</small></p>
+            </div>
+            <div class='col-md-6 option main main2'>
+              <img class="img-fluid" src="meal-images/tikka-masala.jpeg">
+              <p>Tikka Masala <span class='price'>&pound;//</span><br />
+                <small>discription of the second dish</small></p>
+            </div>
+            <div class='col-md-6 option main main3'>
+              <img class="img-fluid" src="meal-images/jalfrezi.jpg">
               <p>Jalfrezi <span class='price'>&pound;//</span><br />
                 <small>discription of the third dish</small></p>
-          </div>
-          <div class='option main main4'>
+            </div>
+            <div class='col-md-6 option main main4'>
+              <img class="img-fluid" src="meal-images/rogan-josh.jpg">
               <p>Rogan Josh <span class='price'>&pound;//</span><br />
                 <small>discription of the first dish</small></p>
+            </div>
           </div>
         </div>
       </div>
@@ -88,53 +101,24 @@
       </div>
       <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
         <div class="card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          <div class="row">
+            <div class='col-md-6 option dessert dessert1'>
+              <img class="img-fluid" src="meal-images/coconut-ladoo.jpg">
+              <p>Coconut Ladoo <span class='price'>&pound;4</span><br />
+                <small>discription of the first dessert</small></p>
+            </div>
+            <div class='col-md-6 option dessert dessert2'>
+              <img class="img-fluid" src="meal-images/milk-pedha.jpg">
+              <p>Milk Pedha <span class='price'>&pound;4</span><br />
+                <small>discription of the second dessert</small></p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
   </div>
-
-  <h3 class='meal'>Starters</h3>
-  <div class='starter1'>
-    <p>Cheese Paneer <span class='price'>&pound;//</span><br />
-      <small>discription of the first dish</small></p>
-  </div>
-  <div class='starter2'>
-    <p>Aloo Tikki <span class='price'>&pound;//</span><br />
-      <small>discription of the first dish</small></p>
-  </div>
-
-  <div id="original">
-  <h3 class='meal'>Main dishes</h3>
-  <div class='main1'>
-    <p>Korma <span class='price'>&pound;5.50</span><br />
-      <small>discription of the first main</small></p>
-  </div>
-  <div class='main2'>
-    <p>Tikka Masala <span class='price'>&pound;6</span><br />
-      <small>discription of the second main</small></p>
-  </div>
-  <div class='main3'>
-    <p>Jalfrezi <span class='price'>&pound;6</span><br />
-      <small>discription of the third main</small></p>
-  </div>
-  <div class='main4'>
-    <p>Rogan Josh <span class='price'>&pound;6</span><br />
-      <small>discription of the fourth main</small></p>
-  </div>
-
-  <h3 class='meal'>Desserts</h3>
-  <div class='dessert1'>
-    <p>Coconut Ladoo <span class='price'>&pound;4</span><br />
-      <small>discription of the first dessert</small></p>
-  </div>
-  <div class='dessert2'>
-    <p>Milk Pedha <span class='price'>&pound;4</span><br />
-      <small>discription of the second dessert</small></p>
-  </div>
-  </div>
-
+  <br>
   </div>
 
   <script>
