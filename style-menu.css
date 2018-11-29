@@ -1,29 +1,26 @@
-
-
 body {
   font-family: helvetica, sans-serif;
   margin: 0 auto;
-  max-width: 800px;
-  background: url('http://www.letchworthconcessionsandevents.com/images/Black-background-set-wood.jpg');
+  /* background: url('black-background.jpg'); */
 }
-div {
+.original div {
   height: 400px;
   background-size: cover;
   position: relative;
   margin: 40px 0 0 0;
   border-radius: 12px;
 }
-h1 {
+/*h1 {
   font-family: 'Crimson Text', serif;
   text-align: center;
   font-size: 75px;
   color: #aaaaaa;
   margin: 60px 0 0 0;
-}
-h2 {
+}*/
+/*h2 {
   text-align: center;
   color: #bbbbbb;
-}
+}*/
 h3 {
   text-align: center;
   color: #cccccc;
@@ -36,14 +33,14 @@ h3 {
 }
 p {
   color: rgba(255,255,255,1);
-  background: black;
+  /*background: black;
   background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));*/
   padding: 10px;
   line-height: 28px;
   text-align: justify;
-  position: absolute;
+  /*position: absolute*/;
   bottom: 0;
   margin: 0;
   height: 30px;
@@ -51,11 +48,19 @@ p {
   -webkit-transition: height 0.5s;
   -moz-transition: height 0.5s;
 }
+a.navbar-brand {
+  font-size: 28px;
+}
 small {
   opacity: 0;
 }
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 15px;
+  margin-top: 5px;
+}
 .show-description p {
-  height: 150px;
+  height: 480px;
 }
 .show-description small {
   opacity: 1;

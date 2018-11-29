@@ -1,3 +1,20 @@
+body {
+  background: url('black-background.jpg');
+}
+
+h1 {
+  font-family: 'Crimson Text', serif;
+  text-align: center;
+  font-size: 75px;
+  color: #aaaaaa;
+  margin: 60px 0 0 0;
+}
+
+h2 {
+  text-align: center;
+  color: #bbbbbb;
+}
+
 ul.nav li{
     display: inline-block;
     padding-right: 10px;
