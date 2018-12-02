@@ -126,7 +126,7 @@ button.btn-link:active {
   float: right;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   h1 {
     font-size: 50px;
     margin-top: 20px;
