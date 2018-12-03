@@ -1,15 +1,8 @@
 body {
   font-family: helvetica, sans-serif;
   margin: 0 auto;
-  /* background: url('black-background.jpg'); */
 }
-/*.original div {
-  height: 400px;
-  background-size: cover;
-  position: relative;
-  margin: 40px 0 0 0;
-  border-radius: 12px;
-}*/
+
 h1 {
   font-family: 'Crimson Text', serif;
   text-align: center;
@@ -19,7 +12,7 @@ h1 {
 }
 h2 {
   text-align: center;
-  color: #bbbbbb;
+  color: #cccccc;
   margin-bottom: 70px;
 }
 h3 {
@@ -29,27 +22,14 @@ h3 {
   color: #cccccc;
   margin-bottom: 12px;
 }
-/*.meal {
-  text-align: left;
-  color: #cccccc;
-  margin: 40px 0 0 0;
-}*/
+
 p {
   color: rgba(255,255,255,1);
-  /*background: black;
-  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));*/
-  /*padding: 10px;*/
-  /*line-height: 28px;*/
   text-align: justify;
-  /*position: absolute;*/
-  /*bottom: 0;
-  margin: 0;*/
-  /*height: 30px;*/
   transition: height 0.5s;
   -webkit-transition: height 0.5s;
   -moz-transition: height 0.5s;
+  margin-top: 10px;
 }
 
 a.navbar-brand {
@@ -57,7 +37,6 @@ a.navbar-brand {
 }
 
 small {
-  /*opacity: 0;*/
   padding-bottom: 20px;
 }
 
@@ -88,62 +67,10 @@ button.btn-link:active {
   color: #888;
 }
 
-/*
-.show-description p {
-  height: 480px;
-}
-*/
-/*.show-description small {
-  opacity: 1;
-}*/
-/*
-.starter1 {
-  background-image: url('https://www.momjunction.com/wp-content/uploads/2015/07/Chili-Paneer-Cottage-Cheese.jpg');
-}
-.starter2 {
-  background-image: url('http://www.newshungers.com/wp-content/uploads/2018/02/Frozen-Aloo-Tikki.jpg');
-}
-.main1 {
-  background-image: url('https://img.taste.com.au/GL3p1NtJ/w720-h480-cfill-q80/taste/2016/11/chicken-korma-84835-1.jpeg');
-}
-.main2 {
-  background-image: url('https://img.taste.com.au/an0gimg7/w720-h480-cfill-q80/taste/2016/11/original-tikka-masala-with-chicken-108625-1.jpeg');
-}
-.main3 {
-  background-image: url('https://www.curry-pot.com/wp-content/uploads/2016/12/chicken-bhuna-720x480.jpg');
-}
-.main4 {
-  background-image: url('https://cdn.awesomecuisine.com/wp-content/uploads/2008/01/mutton_rogan_josh.jpg');
-}
-.dessert1 {
-  background-image: url('https://aartimadan.com/wp-content/uploads/2018/10/Coconut-Barfi.jpg');
-}
-.dessert2 {
-  background-image: url('https://i.pinimg.com/originals/fa/80/80/fa80804cb97d44325883703b83384893.jpg');
-}
-*/
 .price {
   float: right;
 }
 
-/*"".viewport {
-  h1 {
-    font-size: 50px;
-    margin-top: 20px;
-    line-height: 40px;
-  }
-  h2 {
-    font-size: 20px;
-    margin: 20px 0 30px 0;
-  }
-  div {
-    margin: 15px 10px 0 10px;
-  }
-  p {
-    font-size: 20px;
-    line-height: 24px;
-  }
-  small {
-    font-size: 16px;
-  }
-}*/
+.container {
+  margin-bottom: 40px;
+}
