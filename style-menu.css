@@ -126,7 +126,7 @@ button.btn-link:active {
   float: right;
 }
 
-@media (max-width: 800px) {
+/*"".viewport {
   h1 {
     font-size: 50px;
     margin-top: 20px;
@@ -146,4 +146,4 @@ button.btn-link:active {
   small {
     font-size: 16px;
   }
-}
+}*/
